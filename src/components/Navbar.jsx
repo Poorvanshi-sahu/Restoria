@@ -19,8 +19,10 @@ const Navbar = () => {
   }
 
   const handleScroll = (event, targetID)=>{
+    console.log(targetID);
       event.preventDefault();
       const targetElement = document.getElementById(targetID);
+      console.log(targetElement);
       if(targetElement){
         const offSetTop = targetElement.offsetTop-80;
         window.scrollTo({

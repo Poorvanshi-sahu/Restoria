@@ -7,8 +7,8 @@ const MISSION =
 
 const Mission = () => {
   return (
-    <section className='mission px-1'>
-        <div className="container mx-auto text-center">
+    <section className='px-1' id='mission'>
+        <div className="container mx-auto text-center px-4">
             <h2 className='mb-8 text-3xl lg:text-4xl'>Our Mission</h2>
             <div className='relative flex items-center justify-center '>
                 <video className='w-full rounded-3xl' muted autoPlay loop playsInline poster={missionImg}>
